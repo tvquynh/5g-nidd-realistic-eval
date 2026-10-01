@@ -1,0 +1,6 @@
+# Fixed seed list for every randomized stage. The boosted ensembles use
+# all ten; the deep tabular models use the first five, because a single
+# FT-Transformer fit averages 88 minutes against 41 seconds for LightGBM.
+seeds: [42, 123, 456, 789, 1011, 2026, 3141, 4242, 5555, 6789]
+prototype_seeds: [42, 123]
+smoke_seeds: [42, 123]

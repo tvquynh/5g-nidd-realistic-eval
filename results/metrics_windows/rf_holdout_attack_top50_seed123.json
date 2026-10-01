@@ -1,0 +1,78 @@
+{
+  "model": "rf",
+  "split": "holdout_attack",
+  "seed": 123,
+  "features": "top50",
+  "train_bs": null,
+  "smoke": false,
+  "macro_f1": 0.10600159250711905,
+  "weighted_f1": 0.6667861573475088,
+  "per_class": {
+    "0": {
+      "precision": 0.9124817993122464,
+      "recall": 0.9995079491660587,
+      "f1": 0.9540143325640714,
+      "support": 58937
+    },
+    "1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2399
+    },
+    "4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 18042
+    },
+    "6": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4947
+    },
+    "7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "8": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "binary_f1": 0.8742331967666925,
+  "binary_recall": 0.7774539152355443,
+  "binary_fpr": 0.0004920508339413272,
+  "macro_roc_auc": NaN,
+  "macro_pr_auc": 0.36823975807322346,
+  "train_time_sec": 7.572957754135132,
+  "inference_time_sec": 0.3695499897003174,
+  "inference_throughput_per_sec": 228182.9315389305,
+  "n_train": 215675,
+  "n_test": 84325,
+  "n_features": 50,
+  "num_classes": 9
+}

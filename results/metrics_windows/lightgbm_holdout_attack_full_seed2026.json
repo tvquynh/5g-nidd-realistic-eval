@@ -1,0 +1,78 @@
+{
+  "model": "lightgbm",
+  "split": "holdout_attack",
+  "seed": 2026,
+  "features": "full",
+  "train_bs": null,
+  "smoke": false,
+  "macro_f1": 0.12363574495257139,
+  "weighted_f1": 0.6912986564145579,
+  "per_class": {
+    "0": {
+      "precision": 0.9796451634378537,
+      "recall": 0.9987104874696711,
+      "f1": 0.9890859596205711,
+      "support": 58937
+    },
+    "1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2399
+    },
+    "4": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 18042
+    },
+    "6": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4947
+    },
+    "7": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "8": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "binary_f1": 0.9738257873420783,
+  "binary_recall": 0.9518276351031983,
+  "binary_fpr": 0.0012895125303289954,
+  "macro_roc_auc": NaN,
+  "macro_pr_auc": 0.2663501032425563,
+  "train_time_sec": 8.445926189422607,
+  "inference_time_sec": 0.15558075904846191,
+  "inference_throughput_per_sec": 542001.4693059415,
+  "n_train": 215675,
+  "n_test": 84325,
+  "n_features": 89,
+  "num_classes": 9
+}

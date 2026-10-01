@@ -1,0 +1,138 @@
+{
+  "train_bs": 2,
+  "test_bs": 1,
+  "seed": 42,
+  "features": "full",
+  "n_benign_scored": 17264,
+  "per_model": {
+    "lightgbm": {
+      "false_positive_rate": 0.6925393883225208,
+      "destinations": {
+        "UDPFlood": {
+          "count": 11956,
+          "share": 0.6925393883225208
+        },
+        "Benign": {
+          "count": 5308,
+          "share": 0.3074606116774791
+        }
+      },
+      "flagged_vs_retained": {
+        "Load": {
+          "retained_mean": 272715.5,
+          "flagged_mean": 63.88412094116211
+        },
+        "SrcLoad": {
+          "retained_mean": 123157.375,
+          "flagged_mean": 63.88412094116211
+        },
+        "SrcRate": {
+          "retained_mean": 196.64752197265625,
+          "flagged_mean": 0.1901313066482544
+        },
+        "Rate": {
+          "retained_mean": 833.927490234375,
+          "flagged_mean": 0.1901313066482544
+        },
+        "RunTime": {
+          "retained_mean": 0.6210364699363708,
+          "flagged_mean": 1.2918933629989624
+        },
+        "Max": {
+          "retained_mean": 0.6210364699363708,
+          "flagged_mean": 1.2918933629989624
+        }
+      }
+    },
+    "rf": {
+      "false_positive_rate": 0.6923656163113995,
+      "destinations": {
+        "UDPFlood": {
+          "count": 11953,
+          "share": 0.6923656163113995
+        },
+        "Benign": {
+          "count": 5311,
+          "share": 0.3076343836886006
+        }
+      },
+      "flagged_vs_retained": {
+        "Load": {
+          "retained_mean": 272561.625,
+          "flagged_mean": 63.817264556884766
+        },
+        "SrcLoad": {
+          "retained_mean": 123088.0,
+          "flagged_mean": 63.817264556884766
+        },
+        "SrcRate": {
+          "retained_mean": 196.5369873046875,
+          "flagged_mean": 0.18993231654167175
+        },
+        "Rate": {
+          "retained_mean": 833.4569702148438,
+          "flagged_mean": 0.18993231654167175
+        },
+        "RunTime": {
+          "retained_mean": 0.621834933757782,
+          "flagged_mean": 1.291706919670105
+        },
+        "Max": {
+          "retained_mean": 0.621834933757782,
+          "flagged_mean": 1.291706919670105
+        }
+      }
+    },
+    "lr": {
+      "false_positive_rate": 0.7031974050046339,
+      "destinations": {
+        "UDPFlood": {
+          "count": 11978,
+          "share": 0.6938137164040779
+        },
+        "Benign": {
+          "count": 5124,
+          "share": 0.2968025949953661
+        },
+        "HTTPFlood": {
+          "count": 112,
+          "share": 0.006487488415199258
+        },
+        "SlowrateDoS": {
+          "count": 47,
+          "share": 0.0027224281742354033
+        },
+        "SYNFlood": {
+          "count": 3,
+          "share": 0.00017377201112140871
+        }
+      },
+      "flagged_vs_retained": {
+        "Load": {
+          "retained_mean": 73170.0703125,
+          "flagged_mean": 88419.6171875
+        },
+        "SrcLoad": {
+          "retained_mean": 41088.11328125,
+          "flagged_mean": 36569.00390625
+        },
+        "SrcRate": {
+          "retained_mean": 6.768918991088867,
+          "flagged_mean": 83.31087493896484
+        },
+        "Rate": {
+          "retained_mean": 274.8075256347656,
+          "flagged_mean": 248.8176727294922
+        },
+        "RunTime": {
+          "retained_mean": 0.6329938173294067,
+          "flagged_mean": 1.2766786813735962
+        },
+        "Max": {
+          "retained_mean": 0.6329938173294067,
+          "flagged_mean": 1.2766786813735962
+        }
+      }
+    }
+  }
+}

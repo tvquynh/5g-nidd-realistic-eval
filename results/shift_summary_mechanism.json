@@ -1,0 +1,113 @@
+{
+  "by_detector_family": {
+    "n_models": 5,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.28475697986529386,
+    "pearson_r": 0.28196352347851955,
+    "pearson_p": 0.6458083473685782
+  },
+  "by_run": {
+    "pooled": {
+      "effective_features": {
+        "description": "number of features the detector effectively uses",
+        "n": 100,
+        "spearman_rho": -0.32058805880588054,
+        "spearman_p": 0.001146549397049559,
+        "pearson_r": -0.407507928975775,
+        "pearson_p": 2.5763314925721213e-05
+      },
+      "gini": {
+        "description": "concentration of feature reliance",
+        "n": 100,
+        "spearman_rho": 0.28238823882388236,
+        "spearman_p": 0.004419495806574692,
+        "pearson_r": 0.3871265071589135,
+        "pearson_p": 6.923506645359435e-05
+      },
+      "reliance_weighted_shift": {
+        "description": "share of reliance sitting on features that move",
+        "n": 100,
+        "spearman_rho": -0.09712571257125711,
+        "spearman_p": 0.33639068253259646,
+        "pearson_r": -0.08123470219261088,
+        "pearson_p": 0.4217072259342645
+      },
+      "reliance_rank_stability": {
+        "description": "survival of the reliance ordering across stations",
+        "n": 100,
+        "spearman_rho": -0.4801920192019202,
+        "spearman_p": 4.2877443988491163e-07,
+        "pearson_r": -0.4557576499704026,
+        "pearson_p": 1.8898536038118407e-06
+      }
+    },
+    "train_bs1": {
+      "effective_features": {
+        "description": "number of features the detector effectively uses",
+        "n": 50,
+        "spearman_rho": -0.8058103241296517,
+        "spearman_p": 1.681929355571716e-12,
+        "pearson_r": -0.9269828020310875,
+        "pearson_p": 4.465259659107033e-22
+      },
+      "gini": {
+        "description": "concentration of feature reliance",
+        "n": 50,
+        "spearman_rho": 0.7920768307322928,
+        "spearman_p": 7.336665680687847e-12,
+        "pearson_r": 0.9206071097216109,
+        "pearson_p": 3.0954034757421034e-21
+      },
+      "reliance_weighted_shift": {
+        "description": "share of reliance sitting on features that move",
+        "n": 50,
+        "spearman_rho": 0.7891956782713084,
+        "spearman_p": 9.854930806332727e-12,
+        "pearson_r": 0.6988473068370131,
+        "pearson_p": 1.6618014460996135e-08
+      },
+      "reliance_rank_stability": {
+        "description": "survival of the reliance ordering across stations",
+        "n": 50,
+        "spearman_rho": -0.8389435774309724,
+        "spearman_p": 2.8109647240002326e-14,
+        "pearson_r": -0.819441744482774,
+        "pearson_p": 3.457142168923521e-13
+      }
+    },
+    "train_bs2": {
+      "effective_features": {
+        "description": "number of features the detector effectively uses",
+        "n": 50,
+        "spearman_rho": 0.1264345738295318,
+        "spearman_p": 0.38161008759856674,
+        "pearson_r": -0.37550368282253005,
+        "pearson_p": 0.007206034862169455
+      },
+      "gini": {
+        "description": "concentration of feature reliance",
+        "n": 50,
+        "spearman_rho": -0.0722689075630252,
+        "spearman_p": 0.6179581811053434,
+        "pearson_r": 0.402504406529391,
+        "pearson_p": 0.0037577106626811136
+      },
+      "reliance_weighted_shift": {
+        "description": "share of reliance sitting on features that move",
+        "n": 50,
+        "spearman_rho": -0.018679471788715485,
+        "spearman_p": 0.8975521529759434,
+        "pearson_r": 0.11344304525314386,
+        "pearson_p": 0.43279864770827065
+      },
+      "reliance_rank_stability": {
+        "description": "survival of the reliance ordering across stations",
+        "n": 50,
+        "spearman_rho": -0.0426890756302521,
+        "spearman_p": 0.7684853425982031,
+        "pearson_r": -0.3581062943446389,
+        "pearson_p": 0.010666169342049874
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Path configuration for the 5G-NIDD evaluation-protocol study.
+#
+# Point the four input paths at wherever you extracted the 5G-NIDD release.
+# The dataset is distributed by its authors, not by this repository; see the
+# README for the reference. Everything else is relative to the repository root
+# and needs no editing. The "local" profile is used unless the NIDD_PROFILE
+# environment variable selects another one; both profiles are given here so
+# either works unchanged.
+
+local:
+  raw_csv_root: "data/raw/extracted"
+  # Author-provided ML-ready file (dataload.txt). Source of the 89-feature master.
+  encoded_csv: "data/raw/combined_encoded/Encoded.csv"
+  bs1_dir: "data/raw/extracted/BS1_each_attack_csv"
+  bs2_dir: "data/raw/extracted/BS2_each_attack_csv"
+  workspace: "."
+  data_out: "data"
+  results: "results"
+
+server:
+  raw_csv_root: "data/raw/extracted"
+  encoded_csv: "data/raw/combined_encoded/Encoded.csv"
+  bs1_dir: "data/raw/extracted/BS1_each_attack_csv"
+  bs2_dir: "data/raw/extracted/BS2_each_attack_csv"
+  workspace: "."
+  data_out: "data"
+  results: "results"
+  logs: "logs"
+
+# Output artifacts, relative to the repository root
+master_parquet: "data/master_5g_nidd.parquet"
+splits_dir: "data/splits"
+models_dir: "results/models"
+metrics_dir: "results/metrics"
+figures_dir: "results/figures"
